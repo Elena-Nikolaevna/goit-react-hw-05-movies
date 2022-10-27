@@ -1,14 +1,16 @@
 import { Routes, Route, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import {Home} from '../pages/Home';
-import {Movies} from '../pages/Movies';
-//import NotFound from '../pages/NotFound';
+import { Home } from '../pages/Home';
+import { Movies } from '../pages/Movies';
+import {NotFound} from '../pages/NotFound';
+import {MovieDetails} from '../pages/MovieDetails'
+
 
 const StyledLink = styled(NavLink)`
   color: black;
 
   &.active {
-    color: orange;
+    color: red;
   }
 `;
 
@@ -24,7 +26,8 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movies" element={<Movies />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
+        <Route puth="/movies/:movieId" element={<MovieDetails />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
