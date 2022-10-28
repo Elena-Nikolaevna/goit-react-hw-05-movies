@@ -1,7 +1,14 @@
-export const homePage = () => {
-  return (
-    <div className="homePageList">
-      <div className="homePageItem"></div>
-    </div>
-  );
-};
+import { Nav, NavList, NavListItem, NavItem } from "./HomePage.styled";
+
+export const HomePage = () => {
+    return <Nav>
+        <NavList>
+            <NavListItem>
+                <NavItem to='/' end>Home</NavItem>
+            </NavListItem>
+            <NavListItem>
+                <NavItem to='movies'>Movies</NavItem>
+            </NavListItem>
+        </NavList>
+    </Nav>
+}
