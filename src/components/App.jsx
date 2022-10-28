@@ -1,9 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { lazy } from "react";
-//import styled from 'styled-components';
-//import { Home } from '../pages/Home';
-//import { Movies } from '../pages/Movies';
-//import { NotFound } from '../pages/NotFound';
+
 import { Container } from './App.styled';
 import { Layout } from "./Layout/Layout";
 import { Cast } from "./Cast/Cast";
