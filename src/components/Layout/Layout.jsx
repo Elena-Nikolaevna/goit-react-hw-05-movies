@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
-import { HomePage } from "../HomePage/HomePage";
+import { HomePage } from "../HomePages/HomePages";
 
 export const Layout = () => {
     return <main>
