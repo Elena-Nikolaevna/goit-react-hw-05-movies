@@ -22,7 +22,8 @@ export const MoviesList = ({ movies, link, state }) => {
 }
 
 MoviesList.propTypes = {
+    state: PropTypes.object.isRequired,
     movies: PropTypes.array.isRequired,
     link: PropTypes.string,
-    state: PropTypes.object,
+   
 }
