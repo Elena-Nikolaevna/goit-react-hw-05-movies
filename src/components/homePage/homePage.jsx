@@ -4,10 +4,10 @@ export const HomePage = () => {
     return <Nav>
         <NavList>
             <NavListItem>
-                <NavItem to='/' end>Home</NavItem>
+                <NavItem to='/' end>Home1</NavItem>
             </NavListItem>
             <NavListItem>
-                <NavItem to='movies'>Movies</NavItem>
+                <NavItem to='movies'>Movies1</NavItem>
             </NavListItem>
         </NavList>
     </Nav>
