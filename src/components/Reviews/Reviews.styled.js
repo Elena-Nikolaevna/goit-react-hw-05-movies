@@ -17,5 +17,5 @@ export const ReviewsContent = styled.p`
     margin-right: 20px;
     padding: 5px;
     border: 1px grey solid;
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);
+    
 `;
