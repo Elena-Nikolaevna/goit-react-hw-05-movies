@@ -52,6 +52,7 @@ const MovieDetails = () => {
             </ListItem>
         </AdditionalList>
         </AdditionalWrap>
+        
         <Outlet />
     </>
     )
